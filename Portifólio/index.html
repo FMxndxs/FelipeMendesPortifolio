@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Mendes Web Portfólio</title>
+    <link rel="shortcut icon" href="img/SiteCapa.jpeg" type="image/x-icon">
+    <link class="foto-guia" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+
+    <div>
+        <nav class="navigation">
+            <ul class="menu">
+                <img src="img/felipe_mendes_logo.png" alt="logo do portifolio" class="img-logo">
+                <li>
+                    <a href="#home" class="menu-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-link">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="menu-link">My Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-link">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#social" class="menu-link">Social</a>
+                </li>
+                <li>
+                    <a href="#curriculum" class="menu-link">Curriculum</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main id="home" class="header">
+        <div>
+            <img src="img/foto-perfil.jpg" alt="Mendes img" class="profile-picture">
+            <h1>Felipe Mendes Campos</h1>
+            <p class="header-sub-title">Desenvolvedor Full-Stack</p>
+        </div>
+    </main>
+    <section id="about" class="about">
+        <h2 class="about-title">
+            About Me
+        </h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Formado no Ensino Médio em 2022, cursei dois anos de Ciência da Computação
+                na PUC-SP. Atualmente estou fazendo o mesmo curso na Universidade
+                Presbiteriana Mackenzie. Busco oportunidades de estágio, trainee ou vaga CLT
+                na área de programação, análise de sistemas, banco de dados, desenvolvedor
+                full-stack. Tenho conhecimento em HTML, CSS, JavaScript, C, C++, Java,
+            </p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <!--<div class="projects-box">
+            <div class="projects-cards">
+                <img src="img/Spotify.jpg" alt="Project 1" class="projects-img">
+                <div class="caixa-texto-paragrafo">
+                    <h3 class="projects-info">Spotify</h3>
+                    <p class="paragraph-projects">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, vitae quis. Non corrupti debitis
+                        atque ea adipisci? Fugit, laboriosam tempore.
+                    </p>
+                </div>
+            </div>
+            <div class="projects-cards">
+                <img src="img/Loja de Roupa.png" alt="Project 2" class="projects-img">
+                <div class="caixa-texto-paragrafo">
+                    <h3 class="projects-info">Loja de Roupa</h3>
+                    <p class="paragraph-projects">
+                        Projeto de site desenvolvido para uma loja de roupas focada em estilo e identidade. A proposta visual combina design moderno e navegação intuitiva, destacando produtos com alta qualidade visual e responsividade total. Experiência otimizada para conversão e engajamento.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projects-cards">
+                <img src="img/xbox.png" alt="Project 3" class="projects-img">
+                <div class="caixa-texto-paragrafo">
+                    <h3 class="projects-info">Portal Xbox</h3>
+                    <p class="paragraph-projects">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nemo facere laudantium rem rerum
+                        exercitationem id vero unde dicta similique.
+                    </p>
+                </div>
+            </div>
+        </div>-->
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="contact-title">Send a Message</h2>
+        <form class="forms-contact" id="forms" onsubmit="enviarWhats(event)">
+            <div class="form-group">
+                <input placeholder="Name" class="form-camp" id="nome">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Enter your message:" class="form-camp" rows="6" id="text"></textarea>
+            </div>
+            <div class="forms-botao">
+                <button type="submit" class="button-form">Send to WhatsApp</button>
+            </div>
+        </form>
+
+
+
+
+
+
+    </section>
+    <section id="social" class="social">
+        <h3 class="texto-social">Social Media</h3>
+        <div class="social-media">
+            <a href="https://www.instagram.com/_mendeesszz/" class="insta"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/felipe-mendes-campos-a38881307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                class="linkedin"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/FMxndxs" class="social-icons"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="contact-email">
+            <img src="img/email-simbolo.png" alt="simbolo de email" class="email-simbolo">
+            <a href="mailto:felipemendescampos@gmail.com" class="email">felipemendescampos@gmail.com</a>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <h3 class="texto-social">Curriculum</h3>
+        <div class="button-cv">
+            <button class="download-btn" onclick="baixarArquivo()">Download My Curriculum <i class='bx bx-download'></i></button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
