@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Mendes Web Portfólio</title>
+    <link rel="shortcut icon" href="img/SiteCapa.jpeg" type="image/x-icon">
+    <link class="foto-guia" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+
+    <div>
+        <nav class="navigation">
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </button>
+            <ul class="menu" id="mobile-menu">
+
+                <img src="img/felipe_mendes_logo.png" alt="logo do portifolio" class="img-logo">
+                <li>
+                    <a href="#home" class="menu-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="menu-link">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="menu-link">My Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-link">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#social" class="menu-link">Social</a>
+                </li>
+                <li>
+                    <a href="#curriculum" class="menu-link">Curriculum</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main id="home" class="header">
+        <div>
+            <img src="img/foto-perfil.jpg" alt="Mendes img" class="profile-picture">
+            <h1>Felipe Mendes Campos</h1>
+            <p class="header-sub-title">Desenvolvedor Full-Stack</p>
+        </div>
+    </main>
+    <section id="about" class="about">
+        <h2 class="about-title">
+            About Me
+        </h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Formando em Ciência da Computação pela Universidade Presbiteriana Mackenzie, com experiência em
+                desenvolvimento front-end e back-end (C, C++, CSS, HTML, JavaScript, Python e Java). Estudo estruturas
+                de dados, bancos de dados e orientação a objetos.
+                Tenho vivência internacional e ótima conversação e leitura em espanhol e inglês. Busco oportunidades
+                para aplicar minhas
+                habilidades em programação, análise de sistemas e desenvolvimento web.
+            </p>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-box">
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Sistema-de-Cadastro" target="_blank" class="projects-link">
+                    <img src="img/sistema-hotel.png" alt="Project 1" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Sistema Hotel</h3>
+                        <p class="paragraph-projects">
+                            Sistema de cadastro e gerenciamento de hóspedes em um hotel. Permite cadastro de hóspedes,
+                            reservas e controle de quartos. Desenvolvido em C++ com interface gráfica.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Site-de-Roupa-Base-" target="_blank" class="projects-link">
+                    <img src="img/Loja de Roupa.png" alt="Project 2" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Loja de Roupa (Base)</h3>
+                        <p class="paragraph-projects">
+                            Projeto de site desenvolvido para uma loja de roupas focada em estilo e identidade. A
+                            proposta visual combina design moderno e navegação intuitiva, destacando produtos com alta
+                            qualidade visual e responsividade total. Experiência otimizada para conversão e engajamento.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Controle-de-Alunos-Notas" target="_blank" class="projects-link">
+                    <img src="img/cadastro_aluno.png" alt="Project 3" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Portal de Alunos </h3>
+                        <p class="paragraph-projects">
+                            Sistema de cadastro de alunos e gestão de matérias e notas. Permite o cadastro de alunos, de
+                            matérias, ra, entre outros, além de controle de notas, acesso as listas e a remoção das
+                            mesmas. Desenvolvida com linguagem java, orientação objetos e estruturas de herança
+                            (Extends).
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Gerenciamento-de-Exerc-cios" target="_blank" class="projects-link">
+                    <img src="img/foto_academia.jpeg" alt="Project 4" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Sistema de Academia</h3>
+                        <p class="paragraph-projects">
+                            Sistema de cadastro e gerenciamento de treinos para academia. Permite o registro de
+                            exercícios, cálculo de calorias, definição de metas semanais e relatórios de desempenho.
+                            Desenvolvido em Python com interface de console.
+
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Domino-s-Game" target="_blank" class="projects-link">
+                    <img src="img/domino.jpeg" alt="Project 5" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Jogo Dominó</h3>
+                        <p class="paragraph-projects">
+                            Jogo simples de dominó com regras básicas e partidas para dois jogadores. Permite
+                            distribuição aleatória das peças, verificação de jogadas válidas e controle de turnos.
+                            Desenvolvido em C com interface de terminal.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="projects-cards">
+                <a href="https://github.com/FMxndxs/Jogo-da-Vida" target="_blank" class="projects-link">
+                    <img src="img/jogo_vida.jpeg" alt="Project 5" class="projects-img">
+                    <div class="caixa-texto-paragrafo">
+                        <h3 class="projects-info">Jogo da Vida (Conway)</h3>
+                        <p class="paragraph-projects">
+                            Simulação baseada no autômato celular criado por John Conway. O sistema representa uma grade
+                            de células que evoluem em gerações conforme regras simples de nascimento, sobrevivência e
+                            morte, baseadas no número de vizinhos vivos.
+                        </p>
+                    </div>
+                </a>
+            </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="contact-title">Send a Message</h2>
+        <form class="forms-contact" id="forms" onsubmit="enviarWhats(event)">
+            <div class="form-group">
+                <input placeholder="Name" class="form-camp" id="nome">
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Enter your message:" class="form-camp" rows="6" id="text"></textarea>
+            </div>
+            <div class="forms-botao">
+                <button type="submit" class="button-form">Send to WhatsApp</button>
+            </div>
+        </form>
+
+
+
+
+
+
+    </section>
+    <section id="social" class="social">
+        <h3 class="texto-social">Social Media</h3>
+        <div class="social-media">
+            <a href="https://www.instagram.com/_mendeesszz/" class="insta"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/felipe-mendes-campos-a38881307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                class="linkedin"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/FMxndxs" class="social-icons"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="contact-email">
+            <img src="img/email-simbolo.png" alt="simbolo de email" class="email-simbolo">
+            <a href="mailto:felipemendescampos@gmail.com" class="email">felipemendescampos@gmail.com</a>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <h3 class="texto-social">Curriculum</h3>
+        <div class="button-cv">
+            <button class="download-btn" onclick="baixarArquivo()">Download My Curriculum <i
+                    class='bx bx-download'></i></button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
